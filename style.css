@@ -11,7 +11,7 @@ header.navbar-container{
   max-width: 1200px;
   padding: 10px;
   margin-inline: auto;
- 
+  justify-content: space-around;
   display: flex;
  
   z-index: 9999;
@@ -21,12 +21,16 @@ header.navbar-container .logo img{
   width: 100px;
   height: 100px;
   margin-left: auto;
+  
 }
 
 header.navbar-container .nav-list ul{
   display: flex;
   gap: 2rem 1rem;
   justify-content: center;
+  align-items: flex-end;
+  padding-left: 0;
+  
 }
 
 header.navbar-container .nav-list a {
@@ -35,10 +39,42 @@ header.navbar-container .nav-list a {
   font-weight: 500;
   color: black;
   border-radius: 50px;
+  
  
   transition: all 0.2s ease-in-out;
 
 }
 header.navbar-container .nav-list:hover a {
   background-color: beige;
+}
+
+main{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-inline: auto;
+
+  background-color: aqua;
+}
+
+main .content{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+main .content .deskripsi-content{
+  flex: 1 1;
+}
+
+main .content .deskripsi-content .title{
+  margin-block: 1rem;
+  font-size: 1,5rem;
+}
+
+main .content .deskripsi-content p{
+  font-size: medium;
+  line-height: 1,5rem;
 }
