@@ -1,0 +1,44 @@
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  height: 100vh;
+
+}
+
+header.navbar-container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  margin-inline: auto;
+ 
+  display: flex;
+ 
+  z-index: 9999;
+}
+
+header.navbar-container .logo img{
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+}
+
+header.navbar-container .nav-list ul{
+  display: flex;
+  gap: 2rem 1rem;
+  justify-content: center;
+}
+
+header.navbar-container .nav-list a {
+  padding: 1rem 1rem;
+  font-size: 1,5rem;
+  font-weight: 500;
+  color: black;
+  border-radius: 50px;
+ 
+  transition: all 0.2s ease-in-out;
+
+}
+header.navbar-container .nav-list:hover a {
+  background-color: beige;
+}
