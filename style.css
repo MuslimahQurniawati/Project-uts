@@ -60,7 +60,7 @@ main{
 }
 
 main .content{
-  display: flex;
+  display: auto;
   align-items: center;
   margin-left: 10px;
 }
