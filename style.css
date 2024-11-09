@@ -71,10 +71,39 @@ main .content .deskripsi-content{
 
 main .content .deskripsi-content .title{
   margin-block: 1rem;
-  font-size: 1,5rem;
+  font-size: 2rem;
 }
 
 main .content .deskripsi-content p{
-  font-size: medium;
+  font-size: 1,5rem;
   line-height: 1,5rem;
 }
+
+/* aside{
+  flex: 1;
+  align-items: center;
+}
+
+
+header{
+  display: inline;
+}
+
+@media screen and (max-width: 1200px){
+  main{
+    flex-flow: column nowrap;
+  }
+  main aside {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  nav ul {
+    justify-content: center;
+  }
+  main aside {
+    align-items: stretch;
+  }
+} */
+
