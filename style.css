@@ -3,6 +3,7 @@ body{
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   height: 100vh;
+  background-color: rgb(244, 244, 182);
 
 }
 
@@ -16,9 +17,9 @@ header.navbar-container{
  
   z-index: 9999;
 
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 20px;
+  /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px; */
+  padding: 10px;
 }
 
 header.navbar-container .logo img{
@@ -68,9 +69,9 @@ main .content{
   align-items: center;
   margin-left: 10px;
 
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px; */
 }
 
 main .content .deskripsi-content{
@@ -91,15 +92,6 @@ main .content .deskripsi-content .title{
 main .content .deskripsi-content p{
   font-size: 1,5rem;
   line-height: 1,5rem;
-}
-main .content-isi .blogs{
-  display: flex;
-  padding: 100%;
-  align-items: center;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 20px;
-
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

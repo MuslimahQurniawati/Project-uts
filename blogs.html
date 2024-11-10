@@ -10,6 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
+<style>
+    .container{
+        padding: 0 10px 30px 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+        grid-gap: 20px 40px;
+        }
+    .heading{
+        /* background-color: beige; */
+        color: black;
+        /* margin-bottom: 10px; */
+        padding: 10px 0;
+        grid-column: 1/-1;
+        text-align: center;
+        
+    }
+    .content-isi{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+</style>
 <body>
     <header class="navbar-container">
         <div class="logo">
@@ -26,9 +53,14 @@
         </nav>
     </header>
 
+    <main class="container">
+        <div class="heading">
+            <h1>Temukan Cerita di Balik Setiap Hidangan!</h1>
+        </div>
+    </main>
+
     <div class="content-isi">
         <article id="blogs" class="blogs">
-            <h2>Temukan Cerita di Balik Setiap Hidangan!</h2>
                 <p>Di blog Nana’s Restaurant, kami membagikan kisah, tips, dan inspirasi di dunia kuliner. Dari resep favorit hingga tren makanan terkini, nikmati artikel-artikel kami untuk menjelajahi lebih dalam soal makanan dan dunia kuliner.</p>
             <h2>Artikel Terbaru</h2>
                 <p>

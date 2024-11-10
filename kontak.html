@@ -9,6 +9,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+        table{
+            align-items: flex-end;
+            text-align: left;
+        }
+        .container{
+        padding: 0 10px 30px 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+        grid-gap: 20px 40px;
+        }
+        .heading{
+        /* background-color: beige; */
+        color: black;
+        margin-bottom: 30px;
+        padding: 30px 0;
+        grid-column: 1/-1;
+        text-align: center;
+        }
+        main img{
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+        
+    </style>
 </head>
 <body>
     <header class="navbar-container">
@@ -25,36 +60,42 @@
             </ul>
         </nav>
     </header>
-
+    <main>
+        <div class="container">
+            <div class="heading">
+                <img src="gambar/nana.jpg" alt="">
+                <h2>Kontak Nana's Restaurant</h2>
+            </div>
+        </div>
     <div class="kontak">
-        <article id="kontak" class="blogs">
-            <h2>Kontak Nana's Restaurant</h2>
+        <article id="kontak" class="kontak">
             <h3>Hubungi kami</h3>
             <p>
                 Kami senang mendengar dari Anda! Apakah Anda ingin membuat reservasi, bertanya tentang menu kami, atau memberikan umpan balik? Jangan ragu untuk menghubungi kami melalui salah satu cara di bawah ini: 
             </p>
             <table>
                 <tr>
-                    <th>Alamat :</th>
-                    <td>Nana's Restaurant <br>
+                    <th>Alamat </th>
+                    <td>Nana's Restaurant
                         Jl. Sukajadi No. 123
                         Bandung, Jawa Barat, Indonesia</td>
                 </tr>
                 <tr>
-                    <th>Telepon :</th>
+                    <th>Telepon </th>
                     <td>(022) 123-4567</td>
                 </tr>
                 <tr>
-                    <th>Email :</th>
+                    <th>Email </th>
                     <td>contact@nanasrestaurant.com</td>
                 </tr>
                 <tr>
-                    <th>jam operasional :</th>
+                    <th>jam operasional </th>
                     <td>Setiap hari: 09.00 - 22.00 WIB</td>
                 </tr>
                 
             </table>
         </article>
     </div>
+</main>
 </body>
 </html>
