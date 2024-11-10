@@ -15,10 +15,7 @@
     display: flex;
    
     z-index: 9999;
-  
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 10px;
+
   }
   
   header.navbar-container .logo img{
