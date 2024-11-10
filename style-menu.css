@@ -5,50 +5,60 @@
   font-family: 'quicksand', sans-serif;
   background-color: rgb(244, 244, 182);
 }
-  
-  header.navbar-container{
-    width: 100%;
-    max-width: 1200px;
-    padding: 5px;
-    margin-inline: auto;
-    justify-content: space-around;
-    display: flex;
-   
-    z-index: 9999;
 
-  }
-  
-  header.navbar-container .logo img{
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    
-  }
-  
-  header.navbar-container .nav-list ul{
-    display: flex;
-    gap: 2rem 1rem;
-    justify-content: center;
-    align-items: flex-end;
-    padding-left: 0;
-    
-  }
-  
-  header.navbar-container .nav-list a {
-    padding: 1rem 1rem;
-    font-size: 1,5rem;
-    font-weight: 500;
-    color: black;
-    border-radius: 50px;
-    
-   
-    transition: all 0.2s ease-in-out;
-  
-  }
-  header.navbar-container .nav-list:hover a {
-    background-color: beige;
-  }
+body{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(244, 244, 182);
 
+}
+  
+header.navbar-container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 5px;
+  margin-inline: auto;
+  justify-content: space-around;
+  display: flex;
+ 
+  z-index: 9999;
+  /* background-color: antiquewhite; */
+
+  
+}
+
+header.navbar-container .logo img{
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  
+}
+
+header.navbar-container .nav-list ul{
+  display: flex;
+  gap: 2rem 1rem;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 0;
+  padding: 47px;
+  
+}
+
+header.navbar-container .nav-list a {
+  padding: 1rem 1rem;
+  font-size: 1,5rem;
+  font-weight: 500;
+  color: black;
+  border-radius: 50px;
+  
+ 
+  transition: all 0.2s ease-in-out;
+
+}
+header.navbar-container .nav-list:hover a {
+  background-color: beige;
+}
   .menu{
     padding: 0 10px 30px 10px;
     display: grid;
@@ -119,13 +129,13 @@
 
   .detail-sub h5{
     font-weight: 600;
-    font-size: large;
+    font-size: x-large;
   }
 
   .detail p{
     color: black;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 1,5rem;
     font-weight: 400;
     align-self: stretch;
   }

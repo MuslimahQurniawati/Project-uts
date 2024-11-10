@@ -16,13 +16,12 @@ header.navbar-container{
   display: flex;
  
   z-index: 9999;
-
   
 }
 
 header.navbar-container .logo img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-left: auto;
   
 }
@@ -33,6 +32,7 @@ header.navbar-container .nav-list ul{
   justify-content: center;
   align-items: flex-end;
   padding-left: 0;
+  padding: 30px;
   
 }
 
@@ -80,6 +80,7 @@ main img{
   width: 600px;
   height: 400px;
   align-items: center;
+  border-radius: 10px;
 }
 
 main .content .deskripsi-content .title{
@@ -89,39 +90,11 @@ main .content .deskripsi-content .title{
 
 main .content .deskripsi-content p{
   font-size: 1,5rem;
-  line-height: 1,5rem;
+  line-height: 2rem;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
 }
-
-/* aside{
-  flex: 1;
-  align-items: center;
-}
-
-
-header{
-  display: inline;
-}
-
-@media screen and (max-width: 1200px){
-  main{
-    flex-flow: column nowrap;
-  }
-  main aside {
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 768px){
-  nav ul {
-    justify-content: center;
-  }
-  main aside {
-    align-items: stretch;
-  }
-} */
 
