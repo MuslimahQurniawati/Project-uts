@@ -98,3 +98,8 @@ main .content .deskripsi-content p{
   padding: 20px;
 }
 
+.card p{
+    font-size: 1,5rem;
+  line-height: 2rem;
+}
+

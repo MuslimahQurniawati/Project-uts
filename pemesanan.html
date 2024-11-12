@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.reservation-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.reservation-form h2 {
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reservation-form button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reservation-form button:hover {
+    background-color: #45a049;
+}
+
+.confirmation-message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #4CAF50;
+}
+
+</style>
+<body>
+    <div class="reservation-form">
+        <h2>Form Pemesanan Meja</h2>
+        <form id="reservationForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="nomor">Nomor Telepon:</label>
+            <input type="tel" id="nomor" name="nomor" required>
+
+            <label for="jumlah">Jumlah Orang:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+
+            <label for="tanggal">Tanggal Reservasi:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+
+            <label for="waktu">Waktu Reservasi:</label>
+            <input type="time" id="waktu" name="waktu" required>
+
+            <button type="button" onclick="submitReservation()">Pesan Sekarang</button>
+        </form>
+        <p id="confirmationMessage" class="confirmation-message"></p>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
