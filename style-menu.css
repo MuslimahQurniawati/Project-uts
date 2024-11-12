@@ -107,7 +107,6 @@ header.navbar-container .nav-list:hover a {
     position: relative;
     grid-template-rows: auto 1fr;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
     transition: .2s ease-in-out;
     margin-bottom: 200px;
   }
