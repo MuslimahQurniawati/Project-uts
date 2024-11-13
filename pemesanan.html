@@ -13,6 +13,7 @@
 
 </head>
 
+<!-- style css -->
 <style>
 body {
     font-family: Arial, sans-serif;
@@ -23,7 +24,6 @@ body {
     margin: 0;
     background-color: #f5f5f5;
 }
-
 .reservation-form {
     background-color: #ffffff;
     padding: 20px;
@@ -32,18 +32,15 @@ body {
     width: 300px;
     text-align: center;
 }
-
 .reservation-form h2 {
     margin-bottom: 20px;
 }
-
 .reservation-form label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
     text-align: left;
 }
-
 .reservation-form input {
     width: 100%;
     padding: 8px;
@@ -51,7 +48,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 .reservation-form button {
     margin-top: 15px;
     width: 100%;
@@ -63,18 +59,16 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
-
 .reservation-form button:hover {
     background-color: #45a049;
 }
-
 .confirmation-message {
     margin-top: 15px;
     font-size: 16px;
     color: #4CAF50;
 }
-
 </style>
+
 <body>
     <div class="reservation-form">
         <h2>Form Pemesanan Meja</h2>
@@ -96,9 +90,9 @@ body {
 
             <button type="button" onclick="submitReservation()">Pesan Sekarang</button>
         </form>
-        <p id="confirmationMessage" class="confirmation-message"></p>
-    
+            <p id="confirmationMessage" class="confirmation-message"></p>
     </div>
+
     <script src="script.js"></script>  
 </body>
 </html>
